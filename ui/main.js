@@ -1,6 +1,11 @@
 console.log('Loaded!');
 alert("loading");
 var element = document.getElementById('madi');
+function moveRight(){
+  marginLeft=marginLeft+10;
+  element.style.marginleft=marginLeft+'px';
+    
+}
 element.onclick= function(){
-     element.style.marginleft='100px';
+     var interval= setInterval(moveRight , 100);
 };
