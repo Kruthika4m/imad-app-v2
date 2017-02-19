@@ -1,7 +1,7 @@
 console.log('Loaded!');
 alert("loading");
 var element = document.getElementById('madi');
-var marginLeft;
+var marginLeft=0;
 function moveRight(){
   marginLeft=marginLeft+10;
   element.style.marginleft=marginLeft+'px';
